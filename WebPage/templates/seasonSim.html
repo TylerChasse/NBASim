@@ -1,0 +1,23 @@
+{{ template "layout" }}
+<head>
+    <style>
+        body {
+            display: block
+        }
+        .header2 {
+                white-space: normal;
+        }
+    </style> 
+</head>
+
+<div class="header2">
+    <h1>Season Simulation</h1>
+    <form action="/seasonsim/run", method="POST, GET">
+        <button class="button">Run</button>
+    </form>
+    <h3>Results:</h3>
+</div>
+<div>
+    {{ .Data }}
+</div>
+

@@ -1,0 +1,34 @@
+{{ define "layout" }}
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>NBA Simulator</title>
+        <link rel="stylesheet" type="text/css" href="/static/style.css">       
+    </head>
+
+    <body>
+        <div class="header">
+            <h1 style=color:white>NBA Simulator</h1>
+
+            <!-- buttons -->
+            <form action="/singlegamesim", method="POST, GET">
+                <button  class="button">Single Game Sim</button>
+            </form>
+
+            <form action="/seriessim", method="POST, GET">
+                <button class="button">Series Sim</button>
+            </form>
+        
+            <form action="/seasonsim", method="POST, GET">
+                <button class="button">Season Sim</button>
+            </form>
+        </div>  
+
+        <!-- dropdown menus and user interaction (clicks) -->
+        <script src="/static/script.js"></script>
+    </body>
+
+</html>
+{{ end }}
