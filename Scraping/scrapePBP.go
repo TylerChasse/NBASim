@@ -1,7 +1,7 @@
 package Scraping
 
 import (
-	"NBASimGo/Helper"
+	"NBASim/Helper"
 	"context"
 	"encoding/json"
 	"fmt"

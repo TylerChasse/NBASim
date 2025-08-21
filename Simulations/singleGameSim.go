@@ -1,7 +1,7 @@
 package Simulations
 
 import (
-	"NBASimGo/Scraping"
+	"NBASim/Scraping"
 	"fmt"
 	"math/rand"
 	"runtime"

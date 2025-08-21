@@ -1,9 +1,9 @@
 package main
 
 import (
-	"NBASimGo/Scraping"
-	"NBASimGo/Simulations"
-	"NBASimGo/Testing"
+	"NBASim/Scraping"
+	"NBASim/Simulations"
+	"NBASim/Testing"
 	"fmt"
 	"net/http"
 	"time"

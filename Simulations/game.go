@@ -3,7 +3,7 @@ package Simulations
 import (
 	//"crypto/rand"
 
-	"NBASimGo/Scraping"
+	"NBASim/Scraping"
 	"math/rand"
 
 	"github.com/mroth/weightedrand"
